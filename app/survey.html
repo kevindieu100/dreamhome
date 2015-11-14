@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="style.css"/>	
+		<link rel="stylesheet" href="style.css"/>
+		<script src="script.js"></script>	
 	<body>
 		<div class="center">
 			<div class="container">
@@ -12,28 +13,33 @@
 				<form action="backend/FindHouse.py">
 					<div class="subfeatures">
 							<div class="feature">
-								TAX BRACKET:
-								<select id="tax">
-								</select>
-							</div>
-							<div class="feature">
-								TEMPERATURE:
-								<input type="text" name="" value="" />
-							</div>
-							<div class="feature">
-								<div class="kids">
-									Kids:
-									<input type="checkbox" name="Yes/No" value="Yes" /> Yes
-									<input type="checkbox" name="Yes/No" value="No" /> No
+								<div class="title">
+									TAX BRACKET:
 								</div>
-								<div class="ifkids">
-									What kind of school:
-									<input type="checkbox" name="school" value="public" /> Public
-									<input type="checkbox" name="school" value="private" />Private
+								<div class="userInput">
+									<select id="tax">
+										<!--will be populated in backend-->
+									</select>
 								</div>
 							</div>
-						<input type="Submit" value="Find DREAM HOME">
+							<div class="feature">
+								<div class="title">
+									TEMPERATURE:
+								</div>
+								<div class="userInput">
+									<input type="text" name="" value="" />
+								</div>
+							</div>
+							<div class="feature">
+								<div class="title">
+									BUDGET:
+								</div>
+								<div class="userInput">
+									<input id="budget" type="text" />
+								</div>
+							</div>
 					</div>
+					<input type="Submit" value="Find Dream Home">
 				</form>
 			</div><!--container-->
 		</div><!--center-->
