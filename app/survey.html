@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css"/>	
+	<body>
+		<div class="center">
+			<div class="container">
+				<div id="logo">
+					<img src="../images/dreamhomelogo.png">
+				</div>
+				<h1>About Me</h1>
+				<form action="backend/FindHouse.py">
+					<div class="subfeatures">
+							<div class="feature">
+								TAX BRACKET:
+								<select id="tax">
+								</select>
+							</div>
+							<div class="feature">
+								TEMPERATURE:
+								<input type="text" name="" value="" />
+							</div>
+							<div class="feature">
+								<div class="kids">
+									Kids:
+									<input type="checkbox" name="Yes/No" value="Yes" /> Yes
+									<input type="checkbox" name="Yes/No" value="No" /> No
+								</div>
+								<div class="ifkids">
+									What kind of school:
+									<input type="checkbox" name="school" value="public" /> Public
+									<input type="checkbox" name="school" value="private" />Private
+								</div>
+							</div>
+						<input type="Submit" value="Find DREAM HOME">
+					</div>
+				</form>
+			</div><!--container-->
+		</div><!--center-->
+	</body>
+</html>

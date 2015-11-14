@@ -1,0 +1,28 @@
+
+html {
+	margin: 0 auto;
+	height: 100%;
+}
+body {
+	margin: 0 auto;
+	height: 100%;
+}
+.center {
+	margin: 10% 25% 0 25%;
+	padding: 20px;
+	height: 60%;
+}
+.container {
+	height: 55%;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#logo {
+	margin: 0 auto;
+}
+#name input[type="text"] {
+	width: 60%;
+	min-width: 225pt;
+}
