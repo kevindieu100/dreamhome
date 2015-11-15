@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import random
 
 
-housing = read_csv('C:\Users\Trey\Documents\CaliCounty.txt')
-food = read_csv('C:\Users\Trey\Documents\cfood.txt')
-temp = read_csv('C:\Users\Trey\Documents\meantemp.txt')
+housing = read_csv('CaliCounty.txt')
+food = read_csv('cfood.txt')
+temp = read_csv('meantemp.txt')
 city = Series(food['geoname'])
 county = Series(food['county_name'])
 foodcost = Series(food['cost_yr'])
@@ -30,15 +30,11 @@ def tempsearch(x,y,aseries):
             tempindex.append(i)
 
 #all variables
-#budget goes in here
 maxbudgethouse = 800000
 low = 90000
 high = 96000
 t1 = 60
 t2 = 80
-#bracket values
-bracket = 'input'
-
 bracket0 = '$1 - $18k'
 bracket1 = '$19k - $75k'
 bracket2 = '$76k - $151k'
@@ -46,52 +42,12 @@ bracket3 = '$152k - $230k'
 bracket4 = '$231k - $411k'
 bracket5 = '$412k - $464k'
 bracket6 = '$464k - up'
-if bracket == bracket0:
-	low = 1
-	high = 18000
-if bracket == bracket1:
-	low = 19000
-	high = 75000
-if bracket == bracket2:
-	low = 76000
-	high = 151000
-if bracket == bracket3:
-	low = 152000
-	high = 230000
-if bracket == bracket4:
-	low = 231000
-	high = 411000
-if bracket == bracket5:
-	low = 412000
-	high = 464000
-if bracket == bracket6:
-	low = 465000
-	high = 10000000
-
-#temperature
-temp = 'input1'
-
 temp0 = '40-50'
 temp1 = '50-60'
 temp2 = '60-70'
 temp3 = '70-80'
 temp4 = '80-90'
 
-if temp == temp0:
-	t1 = 40
-	t2 = 50
-if temp == temp1:
-	t1 = 50
-	t2 = 60
-if temp == temp2:
-	t1 = 60
-	t2 = 70
-if temp == temp3:
-	t1 = 70
-	t2 = 80
-if temp == temp4:
-	t1 = 80
-	t2 = 90
 
 values = []
 tempindex = []
@@ -177,5 +133,4 @@ for p in range(0, len(housingcounty.index)):
     if countyname == housingcounty[p]:
         zebopdedop = countyprices[p]
         yup+=1
-#returns this string which is the county, plus the annual food cost/living expenses, the median house price
 structure[temporary] + '       Annual Food Cost: $' + str(thestring) + "       Median House Price: $" + str(zebopdedop)
