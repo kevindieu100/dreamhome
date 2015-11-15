@@ -33,6 +33,8 @@ def tempsearch(x,y,aseries):
 
 #all variables
 maxbudgethouse = 800000
+#bracket
+#temp
 low = 90000
 high = 96000
 t1 = 60
@@ -44,12 +46,47 @@ bracket3 = '$152k - $230k'
 bracket4 = '$231k - $411k'
 bracket5 = '$412k - $464k'
 bracket6 = '$464k - up'
+if bracket == bracket0:
+	low = 1
+	high = 18000
+if bracket == bracket1:
+	low = 19000
+	high = 75000
+if bracket == bracket2:
+	low = 76000
+	high = 151000
+if bracket == bracket3:
+	low = 152000
+	high = 2300000
+if bracket == bracket4:
+	low = 231000
+	high = 411000
+if bracket == bracket5:
+	low = 412000
+	high = 464000
+if bracket == bracket0:
+	low = 465000
+	high = 10000000000
 temp0 = '40-50'
 temp1 = '50-60'
 temp2 = '60-70'
 temp3 = '70-80'
 temp4 = '80-90'
-
+if temp == temp0:
+	t1 = 40
+	t2 = 50
+if temp == temp1:
+	t1 = 50
+	t2 = 60
+if temp == temp2:
+	t1 = 60
+	t2 = 70
+if temp == temp3:
+	t1 = 70
+	t2 = 80
+if temp == temp4:
+	t1 = 80
+	t2 = 90
 
 values = []
 tempindex = []
