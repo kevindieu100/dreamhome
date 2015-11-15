@@ -8,6 +8,7 @@ import random
 housing = read_csv('CaliCounty.txt')
 food = read_csv('cfood.txt')
 temp = read_csv('meantemp.txt')
+curl = read_csv('curl.txt')
 city = Series(food['geoname'])
 county = Series(food['county_name'])
 foodcost = Series(food['cost_yr'])
@@ -16,6 +17,7 @@ housingcounty = Series(housing['State/Region/County'])
 countyprices = Series(housing['15-Sep'])
 temperature = Series(temp['Avg Daily Max Air Temperature'])
 countyTemp = Series(temp['County'])
+urls = Series(curl['URLs'])
 
 tempindex = []
 values = []

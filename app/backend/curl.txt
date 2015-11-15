@@ -1,0 +1,50 @@
+County,URLs
+Alameda,http://www.arb.ca.gov/ba/omb/resources/bayarea/alamedacounty/alemeda.jpg
+Contra-Costa,http://www.co.contra-costa.ca.us/ImageRepository/Path?filePath=%2F00000000-0000-0000-0000-000000000000%5C2743%2Fcity_201309061400041297.jpg
+Marin,http://venturebeat.com/wp-content/uploads/2010/08/marin_county.jpg
+Napa,http://www.nevadacounty.com/wp-content/uploads/2009/04/lake-englebright2.jpg
+San Francisco,http://static1.squarespace.com/static/547f29bfe4b0dc192ed7bdac/54aeb15ce4b018c14f34c7cb/54aeb160e4b018c14f34c7ed/1420734817363/san-franc.jpg?format=2500w
+San Mateo,http://mms.businesswire.com/media/20140414006112/en/411498/4/CenturyCentreI%26II_aerial.jpg?download=1
+Santa Clara,http://www.santaclara.org/images/slider/Exterior1.jpg
+Solano,http://solanolandtrust.org/uploads/images/Properties/RTE/hikers-jorg-fleige.jpg
+Sonoma,http://www.charterflightgroup.com/wp-content/uploads/2012/12/Wine-Vinyard-Sonoma.jpeg
+Los Angeles,http://cdn.phys.org/newman/gfx/news/hires/2014/uclastudyide.jpg
+Orange,http://www.blinkdev.com/sites/default/files/Laguna_Beach_Bucht.jpg
+Riverside,http://joinrealtysource.com/website/agent_pictures/4167/riverside.jpg
+San Bernardino,https://upload.wikimedia.org/wikipedia/en/archive/c/c3/20110404032141!Sb_2004_dt_skyline_006a.jpg
+San Diego,http://www.sandiego.com/sites/sandiego.com/files/styles/large/public/content/featured-content/sd-tour-1.jpg?itok=8KDQcQ5u
+Ventura,http://www.venturacountystockphotos.com/Scenics/full/08%20Ventura%20County%20Scenics.jpg
+Monterey,http://images.winemag.com/images/cache/cache_0/cache_2/cache_3/Monterey-bcede320.jpeg?ver=1440511657&aspectratio=1.4906832298137
+San Luis Obispo,http://www.findyourspot.com/sites/all/images/fys/city/photos/San-Luis-Obispo-California-1_photo.jpg
+Santa Barbara,http://www.maguireearlyorthopedics.com/files/2014/01/The-California-Wine-Festival-in-Santa-Barbara-1.jpg
+Santa Cruz,"https://upload.wikimedia.org/wikipedia/commons/4/49/Santa_Cruz,_California_-_Boardwalk.jpg"
+Fresno,http://media1.rent.com/oneweb/img/local-info/fresno-ca-cityview.jpg
+Glenn,http://www.glenncounty.com/images/Western%20View.jpg
+Kern (Bakersfield),https://upload.wikimedia.org/wikipedia/commons/2/28/Bodfish_and_Lake_Isabella_California.JPG
+Kings,http://pics4.city-data.com/cpicc/cfiles17072.jpg
+Madera,http://www.arb.ca.gov/ba/omb/resources/madera/madera_county.jpg
+Merced,"https://upload.wikimedia.org/wikipedia/commons/0/02/Merced,_Ca,_San_Joaquin_Valley.JPG"
+Placer,http://placerpublicemployees.org/ppeo/wp-content/gallery/main-gallery-page/placer-county-5.jpg
+Sacramento,http://www.scgja.org/SCGJA_WEBSITE/SCJGA_files/726px-Tower_Bridge_Sacramento.jpg
+San Benito,https://upload.wikimedia.org/wikipedia/commons/f/fe/San_Benito_County_Courthouse_23-Aug-2008-e.jpg
+San Joaquin,http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/most_polluted_cities_slideshow/getty_rf_photo_of_fresno_california.jpg
+Stanislaus,https://upload.wikimedia.org/wikipedia/commons/0/01/Modesto_Arch.JPG
+Tulare,http://tularecounty.ca.gov/assessor/cache/file/3D7A5F2A-F49F-9132-3D2A9E46C363D0BC_W500_H300.jpg
+Amador,https://upload.wikimedia.org/wikipedia/commons/d/d3/AmadorCountyCAFoothills.jpg
+Butte,http://www.buttegeneralplan.net/photos/waterfall.jpg
+Calaveras,http://images.landwatch.com/p/SUP/B2/B9/B3/16/5E/6FXL_01.jpg
+Del Norte,https://upload.wikimedia.org/wikipedia/commons/f/f8/Crescent_City_California_harbor_aerial_view.jpg
+El Dorado,http://calgold.org/page/db/pics/1164228040_32269.f_page_gr1s.jpg
+Humboldt,http://www.redwoods.info/headers/Things%20to%20Do.jpg
+Lake,http://www.lakecounty-california-clearlake-realestate.com/wp-content/uploads/2012/02/8.jpg
+Mariposa,http://media-cdn.tripadvisor.com/media/photo-o/05/da/dc/85/mariposa-downtown-main.jpg
+Mendocino,http://philwendt.com/wp-content/uploads/2012/05/006_D326819a.jpg
+Nevada,https://upload.wikimedia.org/wikipedia/commons/0/07/Martis_Creek_Lake_and_Dam_summer.jpg
+Plumas,http://images.everytrail.com/pics/fullsize/1872719-04A.JPG
+Shasta,http://www.shastaedc.org/images/pageimg/livinghere.jpg
+Siskiyou,http://visitsiskiyou.org/wp-content/uploads/2012/03/fish_siskiyou_county.jpg
+Sutter,http://www.sutterbuttesrealestate.com/uploads/1/9/9/5/1995399/6747781.jpg?1318395185
+Tehama,http://searchontehamacounty.com/files/2010/06/tehama-county-614x180.gif
+Tuolumne,http://www.afci.org/sites/default/files/commission-gallery/pinecrest5.jpg
+Yolo,https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Smaller_canada-geese-and-skyline.jpg/300px-Smaller_canada-geese-and-skyline.jpg
+Yuba,http://www.nevadacounty.com/wp-content/uploads/2009/04/lake-englebright2.jpg
