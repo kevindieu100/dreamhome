@@ -72,6 +72,7 @@ temp1 = '50-60'
 temp2 = '60-70'
 temp3 = '70-80'
 temp4 = '80-90'
+
 if temp == temp0:
 	t1 = 40
 	t2 = 50
