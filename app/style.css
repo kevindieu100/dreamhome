@@ -1,11 +1,15 @@
 
 html {
-	margin: 0 auto;
+	padding: 0;
+	margin: auto;
 	height: 100%;
+	background-image: url("../images/contemporary_china.png");
+	background-repeat: repeat;
 }
 body {
 	margin: 0 auto;
 	height: 100%;
+	
 }
 .center {
 	margin: 10% 25% 0 25%;
