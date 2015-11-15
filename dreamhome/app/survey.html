@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<script src="script.js"></script>	
+	<body>
+		<div class="center">
+			<div class="container">
+				<div id="logo">
+					<img src="../images/dreamhomelogo.png">
+				</div>
+				<h1>About Me</h1>
+				<form action="backend/FindHouse.py">
+					<div class="subfeatures">
+							<div class="feature">
+								<div class="title">
+									TAX BRACKET:
+								</div>
+								<div class="userInput">
+									<select id="tax">
+										<!--will be populated in backend-->
+									</select>
+								</div>
+							</div>
+							<div class="feature">
+								<div class="title">
+									TEMPERATURE:
+								</div>
+								<div class="userInput">
+									<input type="text" name="" value="" />
+								</div>
+							</div>
+							<div class="feature">
+								<div class="title">
+									BUDGET:
+								</div>
+								<div class="userInput">
+									<input id="budget" type="text" />
+								</div>
+							</div>
+					</div>
+					<input type="Submit" value="Find Dream Home">
+				</form>
+			</div><!--container-->
+		</div><!--center-->
+	</body>
+</html>
