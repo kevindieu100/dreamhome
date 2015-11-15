@@ -3,11 +3,14 @@ import pandas
 import numpy as np
 import matplotlib.pyplot as plt
 import random
+import cgi
+import cgitb; cgitb.enable() #for trouble
+from django import forms
 
 
-housing = read_csv('C:\Users\Trey\Documents\CaliCounty.txt')
-food = read_csv('C:\Users\Trey\Documents\cfood.txt')
-temp = read_csv('C:\Users\Trey\Documents\meantemp.txt')
+housing = read_csv('CaliCounty.txt')
+food = read_csv('cfood.txt')
+temp = read_csv('meantemp.txt')
 city = Series(food['geoname'])
 county = Series(food['county_name'])
 foodcost = Series(food['cost_yr'])
@@ -46,6 +49,14 @@ bracket3 = '$152k - $230k'
 bracket4 = '$231k - $411k'
 bracket5 = '$412k - $464k'
 bracket6 = '$464k - up'
+
+
+
+bracket = forms.ModelChoiceField(label='tax')
+temperature = forms.ModelChoiceField(label='temperature')
+maxbudgethouse = forms.CharField(label='budget', max_length = 100)
+
+
 if bracket == bracket0:
 	low = 1
 	high = 18000
