@@ -11,6 +11,7 @@ from django import forms
 housing = read_csv('CaliCounty.txt')
 food = read_csv('cfood.txt')
 temp = read_csv('meantemp.txt')
+curl = read_csv('curl.txt')
 city = Series(food['geoname'])
 county = Series(food['county_name'])
 foodcost = Series(food['cost_yr'])
@@ -19,6 +20,7 @@ housingcounty = Series(housing['State/Region/County'])
 countyprices = Series(housing['15-Sep'])
 temperature = Series(temp['Avg Daily Max Air Temperature'])
 countyTemp = Series(temp['County'])
+urls = Series(curl['URLs'])
 
 tempindex = []
 values = []
@@ -33,15 +35,13 @@ def tempsearch(x,y,aseries):
             tempindex.append(i)
 
 #all variables
-#budget goes in here
 maxbudgethouse = 800000
+#bracket
+#temp
 low = 90000
 high = 96000
 t1 = 60
 t2 = 80
-#bracket values
-bracket = 'input'
-
 bracket0 = '$1 - $18k'
 bracket1 = '$19k - $75k'
 bracket2 = '$76k - $151k'
@@ -68,20 +68,16 @@ if bracket == bracket2:
 	high = 151000
 if bracket == bracket3:
 	low = 152000
-	high = 230000
+	high = 2300000
 if bracket == bracket4:
 	low = 231000
 	high = 411000
 if bracket == bracket5:
 	low = 412000
 	high = 464000
-if bracket == bracket6:
+if bracket == bracket0:
 	low = 465000
-	high = 10000000
-
-#temperature
-temp = 'input1'
-
+	high = 10000000000
 temp0 = '40-50'
 temp1 = '50-60'
 temp2 = '60-70'
@@ -188,5 +184,4 @@ for p in range(0, len(housingcounty.index)):
     if countyname == housingcounty[p]:
         zebopdedop = countyprices[p]
         yup+=1
-#returns this string which is the county, plus the annual food cost/living expenses, the median house price
 structure[temporary] + '       Annual Food Cost: $' + str(thestring) + "       Median House Price: $" + str(zebopdedop)
