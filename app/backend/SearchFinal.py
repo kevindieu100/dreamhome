@@ -30,11 +30,15 @@ def tempsearch(x,y,aseries):
             tempindex.append(i)
 
 #all variables
+#budget goes in here
 maxbudgethouse = 800000
 low = 90000
 high = 96000
 t1 = 60
 t2 = 80
+#bracket values
+bracket = 'input'
+
 bracket0 = '$1 - $18k'
 bracket1 = '$19k - $75k'
 bracket2 = '$76k - $151k'
@@ -42,6 +46,9 @@ bracket3 = '$152k - $230k'
 bracket4 = '$231k - $411k'
 bracket5 = '$412k - $464k'
 bracket6 = '$464k - up'
+#temperature
+temp = 'input1'
+
 temp0 = '40-50'
 temp1 = '50-60'
 temp2 = '60-70'
@@ -133,4 +140,5 @@ for p in range(0, len(housingcounty.index)):
     if countyname == housingcounty[p]:
         zebopdedop = countyprices[p]
         yup+=1
+#returns this string which is the county, plus the annual food cost/living expenses, the median house price
 structure[temporary] + '       Annual Food Cost: $' + str(thestring) + "       Median House Price: $" + str(zebopdedop)

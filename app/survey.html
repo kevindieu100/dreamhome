@@ -10,16 +10,25 @@
 				<div id="logo">
 					<img src="../images/dreamhomelogo.png">
 				</div>
-				<h1>About Me</h1>
+				<div class="titlePage">
+					About Me
+				</div>
 				<form action="backend/FindHouse.py">
 					<div class="subfeatures">
 							<div class="feature">
 								<div class="title">
-									TAX BRACKET:
+									TAX-BRACKET:
 								</div>
 								<div class="userInput">
-									<select id="tax">
-										<!--will be populated in backend-->
+									<select id="tax" name="tax-bracket">
+										<option disabled selected>Select a Tax-Bracket</option>
+										<option>$1 - $18k</option>
+										<option>$19k - $75k</option>
+										<option>$76k - $151k</option>
+										<option>$152k - $230k</option>
+										<option>$231k - $411k</option>
+										<option>$412k - $464k</option>
+										<option>$464k - up</option>
 									</select>
 								</div>
 							</div>
@@ -28,7 +37,14 @@
 									TEMPERATURE:
 								</div>
 								<div class="userInput">
-									<input type="text" name="" value="" />
+									<select id="temperature" name="temperature">
+										<option disabled selected>Select a Temperature</option>
+										<option>40-50</option>
+										<option>50-60</option>
+										<option>60-70</option>
+										<option>70-80</option>
+										<option>80-90</option>
+									</select>
 								</div>
 							</div>
 							<div class="feature">
@@ -36,7 +52,7 @@
 									BUDGET:
 								</div>
 								<div class="userInput">
-									<input id="budget" type="text" />
+									<input id="budget" type="text" name="budget"  />
 								</div>
 							</div>
 					</div>

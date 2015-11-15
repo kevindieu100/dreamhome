@@ -23,6 +23,9 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 }
+.titlePage{
+	font-size: 40px;
+}
 #logo {
 	margin: 0 auto;
 }
@@ -40,9 +43,17 @@ body {
 	display: flex;
 	text-align: center;
 	flex-direction: row;
-	padding-top: 10pt;
-	padding-bottom: 10pt;
+	padding-top: 1pc;
+	padding-bottom: 1pc;
 }
 .userInput {
 	margin-left: auto;
+	min-width: 140pt;
+}
+.title {
+	margin-right: auto;
+	min-width: 140pt;
+}
+.userInput select {
+	min-width: 130pt;
 }
