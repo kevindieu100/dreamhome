@@ -13,13 +13,14 @@
 				<div class="titlePage">
 					About Me
 				</div>
-				<form action="backend/FindHouse.py">
+				<form action="backend/SearchFinals.py" method="POST">
 					<div class="subfeatures">
 							<div class="feature">
 								<div class="title">
 									TAX-BRACKET:
 								</div>
 								<div class="userInput">
+									<label for="tax"></label>
 									<select id="tax" name="tax-bracket">
 										<option disabled selected>Select a Tax-Bracket</option>
 										<option>$1 - $18k</option>
@@ -37,6 +38,7 @@
 									TEMPERATURE:
 								</div>
 								<div class="userInput">
+									<label for="temperature"></label>
 									<select id="temperature" name="temperature">
 										<option disabled selected>Select a Temperature</option>
 										<option>40-50</option>
@@ -52,6 +54,7 @@
 									BUDGET:
 								</div>
 								<div class="userInput">
+									<label for="budget"></label>
 									<input id="budget" type="text" name="budget"  />
 								</div>
 							</div>
